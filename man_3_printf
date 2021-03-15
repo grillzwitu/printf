@@ -1,0 +1,30 @@
+.TH man 3 "13 October 2021" "0.01" "_printf man page"
+.SH NAME
+.B _printf
+- A re-creation of the printf function
+.SH SYNOPSIS
+It is necessary to #include "holberton.h" header to use the function.
+.SH DESCRIPTION
+The _printf() function produces output according to a format which is described
+below. This function write its output to the stdout, the standard output stream.
+.SH USAGE
+The following key characters preceeded by % symbol called specifiers are needed to use _printf.
+.RS 3
+%c: Used to print characters
+.RS 0
+%s: Used to print strings
+.RS 0
+%d: Prints integers of max and min size of an int type
+.RS 0
+%i: Prints integers of max and min size of an int type
+.RS 0
+%%: Prints the symbol '%'
+.SH RETURN VALUES
+The _printf() function returns an integer representing the number of symbols
+printed not counting \\0 (NULL) for the string.
+.SH SEE ALSO
+.I printf(3)
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Taremowei Appah & Girum Ajebe
