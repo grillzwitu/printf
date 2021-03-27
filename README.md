@@ -22,14 +22,21 @@ This is repository is an implementation of printf by Taremowei Appah and Girum A
 - __test__: A directory containng a __main.c__ file to test ___printf__. An illustration of the ___printf__ function is illustrated below. It is important that the __main.c__ is in the same directory as the ___printf__ and its other supporting functions. and the program is compiled with the command __gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c__. The illustration is as follows: 
 
 alex@ubuntu:~/c/printf$ cat main.c
+
 #include <limits.h>
+
 #include <stdio.h>
+
 #include "holberton.h"
 
 /\*\*
+
  \* main - Entry point
+
  \*
+
  \* Return: Always 0
+ 
  \*/
 
 int main(void)
