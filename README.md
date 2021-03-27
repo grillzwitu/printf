@@ -58,8 +58,8 @@ int main(void)
 	return (0);
 \}
 
-alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c  
-alex@ubuntu:~/c/printf$ ./printf  
+alex@ubuntu:\~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c  
+alex@ubuntu:\~/c/printf$ ./printf  
 Let's try to printf a simple sentence.  
 Let's try to printf a simple sentence.  
 Length:\[39, 39\]  
