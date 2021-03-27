@@ -23,24 +23,19 @@ This is repository is an implementation of printf by Taremowei Appah and Girum A
 
 alex@ubuntu:~/c/printf$ cat main.c
 
-#include <limits.h>
-
-#include <stdio.h>
-
+#include <limits.h>  
+#include <stdio.h>  
 #include "holberton.h"
 
-/\*\*
-
- \* main - Entry point
-
- \*
-
- \* Return: Always 0
- 
- \*/
+/\*\*  
+ \* main - Entry point  
+ \*  
+ \* Return: Always 0  
+ \*/  
 
 int main(void)
 \{
+
 	int len;
 	int len2;
 
@@ -63,19 +58,19 @@ int main(void)
 	return (0);
 \}
 
-alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
-alex@ubuntu:~/c/printf$ ./printf
-Let's try to printf a simple sentence.
-Let's try to printf a simple sentence.
-Length:\[39, 39\]
-Length:\[39, 39\]
-Negative:\[\-9999\]
-Negative:\[\-9999\]
-Character:\[H\]
-Character:\[H\]
-String:\[I am a string !\]
-String:\[I am a string !\]
-Percent:\[%\]
-Percent:\[%\]
-Len:\[12\]
-Len:\[12\]
+alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c  
+alex@ubuntu:~/c/printf$ ./printf  
+Let's try to printf a simple sentence.  
+Let's try to printf a simple sentence.  
+Length:\[39, 39\]  
+Length:\[39, 39\]  
+Negative:\[\-9999\]  
+Negative:\[\-9999\]  
+Character:\[H\]  
+Character:\[H\]  
+String:\[I am a string !\]  
+String:\[I am a string !\]  
+Percent:\[%\]  
+Percent:\[%\]  
+Len:\[12\]  
+Len:\[12\]  
