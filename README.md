@@ -19,7 +19,20 @@ This is repository is an implementation of printf by Taremowei Appah and Girum A
 
 - __man_3_printf__: A man page for ___printf__.
 
-- __test__: A directory containng a __main.c__ file to test ___printf__. An illustration of the ___printf__ function is illustrated below. It is important that the __main.c__ is in the same directory as the ___printf__ function and its other supporting functions, the program is compiled with the command __gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c__. The illustration is as follows: 
+- __test__: A directory containng a __main.c__ file to test ___printf__.
+
+### Demonstration
+
+A demonstration of the ___printf__ function is illustrated below. It is important that the __main.c__ is in the same directory as the ___printf__ function and its other supporting functions, the program is compiled with the command __gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c__. The description and illustration is as follows;
+
+___printf__ takes a formatted string as input, it checks for special characters in the string called specifiers which start with the __%__ sign, and replaces them with their values in the formatted string and prints it to the stdout. These specifiers are:  
+- __%c__: Prints a single character.
+- __%s__: Prints a string of characters.
+- __%d__: Prints integers.
+- __%i__: Prints integers.
+- __%%__: Prints percent sign.
+
+See the example below;
 
 alex@ubuntu:~/c/printf$ cat main.c
 
